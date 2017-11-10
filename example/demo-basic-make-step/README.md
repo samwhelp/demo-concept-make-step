@@ -75,7 +75,7 @@ $ sudo make install
 
 註：上面這個動作，請參考「[Makefile](Makefile)」裡的「[install:](Makefile#L7)」那個「Rule」。
 
-假設是在一般使用者的帳號下操作，所以需要加上「sudo」。
+假設是在一般使用者的帳號下操作，所以需要加上「`sudo`」。
 
 
 ## 額外操作步驟
@@ -102,4 +102,4 @@ $ sudo make uninstall
 
 註：上面這個動作，請參考「[Makefile](Makefile)」裡的「[uninstall:](Makefile#L10)」那個「Rule」。
 
-假設是在一般使用者的帳號下操作，所以需要加上「sudo」。
+假設是在一般使用者的帳號下操作，所以需要加上「`sudo`」。
