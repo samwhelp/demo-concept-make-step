@@ -3,15 +3,15 @@
 
 ## 緣起
 
-此專案是因為要回覆[這篇討論](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=358962#forumpost358962)，所產生的靈感，
+此專案是因為要[回覆](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=358966#forumpost358966)這篇[討論](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=358962#forumpost358962)，所產生的靈感，
 用意只是要輔助理解一些概念。
 
 
 ## 常見編譯的參考步驟
 
-* $ ./configure
-* $ make
-* $ sudo make install
+* $ `./configure`
+* $ `make`
+* $ `sudo make install`
 
 
 ## 正常操作步驟
