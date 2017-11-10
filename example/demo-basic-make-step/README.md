@@ -30,7 +30,7 @@ $ ./configure
 會先檢查「build-essential」這個套件是否已經安裝，
 若尚未安裝，會提示請您先安裝。
 
-若已經「build-essential」這個套件了，
+若已經安裝「build-essential」這個套件了，
 
 接下來則會產生一個檔案「msg.h」，檔案內容類似如下
 
