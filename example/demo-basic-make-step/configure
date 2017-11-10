@@ -1,0 +1,34 @@
+#!/bin/sh
+
+echo '=== Testing start... ==='
+
+## 作一些測試，可能測試一些需要的開發函式庫是否已經安裝在系統上，或是是否編譯時能搜尋的到。
+## 舉例，測試「build-essential」這個套件是否被安裝。注意，現實案例，不見得是這個樣子，只是簡單舉例，輔助您了解概念。
+
+TEMP=$(dpkg-query -W build-essential 2>&1)
+if [ "$?" != "0" ] ; then
+	echo 'Please install build-essential first!'
+	echo '$ sudo apt-get install build-essential'
+	echo '** Testing failed. **'
+	exit 1
+else
+	echo 'build-essential installed'
+fi
+
+
+## 寫入一些上面測試過後的紀錄，供編譯時使用。
+## 舉例，產生一個「msg.h」。注意，現實案例，不見得是這個樣子，只是簡單舉例，輔助您了解概念。
+echo '#define MSG_DEMO "'$(uname -r)'"' > msg.h
+echo 'msg.h created.'
+
+
+## 或是也有可能根據上面檢測的結果，產生實際的「Makefile」。
+
+
+## 其他動作...
+
+
+echo '=== Testing end. ==='
+
+echo 'Next Step:'
+echo 'make'
