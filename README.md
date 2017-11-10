@@ -5,7 +5,7 @@
 
 ## example
 
-* [demo-basic-make-step](demo-basic-make-step)
+* [demo-basic-make-step](example/demo-basic-make-step)
 
 
 ## clone
