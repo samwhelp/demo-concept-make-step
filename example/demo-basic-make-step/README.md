@@ -47,7 +47,7 @@ $ ./configure
 $ make
 ```
 
-註：上面這個動作，請參考「[Makefile](Makefile)」裡的「demo:」那個「Rule」。
+註：上面這個動作，請參考「[Makefile](Makefile)」裡的「[demo:](Makefile#L4)」那個「Rule」。
 
 若編譯成功，則會產生「demo」這個檔案。
 
@@ -73,7 +73,7 @@ Test Message: 4.13.0-16-generic
 $ sudo make install
 ```
 
-註：上面這個動作，請參考「[Makefile](Makefile)」裡的「install:」那個「Rule」。
+註：上面這個動作，請參考「[Makefile](Makefile)」裡的「[install:](Makefile#L7)」那個「Rule」。
 
 假設是在一般使用者的帳號下操作，所以需要加上「sudo」。
 
@@ -89,7 +89,7 @@ $ sudo make install
 $ make clean
 ```
 
-註：上面這個動作，請參考「[Makefile](Makefile)」裡的「clean:」那個「Rule」。
+註：上面這個動作，請參考「[Makefile](Makefile)」裡的「[clean:](Makefile#L13))」那個「Rule」。
 
 
 ### make uninstall
@@ -100,6 +100,6 @@ $ make clean
 $ sudo make uninstall
 ```
 
-註：上面這個動作，請參考「[Makefile](Makefile)」裡的「uninstall:」那個「Rule」。
+註：上面這個動作，請參考「[Makefile](Makefile)」裡的「[uninstall:](Makefile#L10)」那個「Rule」。
 
 假設是在一般使用者的帳號下操作，所以需要加上「sudo」。
